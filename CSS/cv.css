@@ -1,7 +1,7 @@
 :root {
     --primary-color: #1e3a8a;
     --secondary-color: #3b82f6;
-    --accent-color: #60a5fa;
+    --accent-color: #0061d8;
     --light-bg: #f0f9ff;
     --dark-text: #1e293b;
     --light-text: #f8fafc;
@@ -14,6 +14,11 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
+}
+
+a:hover {
+    background-color: rgba(255, 0, 0, 0.897);
+    transition: all ease 0.2s;
 }
 
 .cv-container {
@@ -66,6 +71,16 @@ body {
 }
 
 .section-title {
+    color: var(--light-text);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.section-title2 {
     color: var(--accent-color);
     border-bottom: 2px solid var(--accent-color);
     padding-bottom: 5px;
