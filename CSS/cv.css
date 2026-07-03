@@ -17,8 +17,9 @@ body {
 }
 
 a:hover {
-    background-color: rgba(255, 0, 0, 0.897);
+    background-color: #a80000;
     transition: all ease 0.2s;
+    border-radius: 10px;
 }
 
 .cv-container {
